@@ -31,6 +31,11 @@ source .bash_profile    使环境变量生效
 `echo "" > xxx.txt `
 5. 查看端口号占用
 ` netstat -anp`
+6. 移动文件或文件夹   
+`mv 原文件地址或原文件夹地址  新地址`
+7. 删除文件/文件夹
+	 - `rm 文件or文件夹`  
+	 - 当文件夹非空时 `rm -rf 文件夹名`
 
 
 
